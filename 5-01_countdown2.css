@@ -1,0 +1,15 @@
+@charset "UTF-8";
+
+.timer{
+    text-align: right;
+    font-size: 1.5em;
+    font-weight: bold;
+}
+
+.timer #days,
+.timer #hours,
+.timer #minutes,
+.timer #seconds {
+    font-size: 3.5em;
+}
+
