@@ -8,19 +8,20 @@
     <link href="book-js/_common/images/favicon.ico" rel="shortcut icon">
     <link href="https://fonts.googleapis.com/css?family=M+PLUS+1p:400,500" rel="stylesheet">
     <link href="book-js/_common/css/style.css" rel="stylesheet">
+    <link href="5-03_panel.css" rel="stylesheet">
 </head>
 
 <body>
     <header>
         <div class="container">
-            <h1>タイトル</h1>
-            <h2>サブタイトル</h2>
+            <h1>プライバシーポリシー承認パネルを作る</h1>
+            <h2>クッキーの読み・書き・削除</h2>
         </div><!-- /.container -->
     </header>
     <main>
         <div class="container">
             <section>
-
+                <p><button id="testbtn">テスト用　クッキー削除</button></p>
             </section>
         </div><!-- /.container -->
     </main>
@@ -29,6 +30,17 @@
             <p>JavaScript Samples</p>
         </div><!-- /.container -->
     </footer>
+
+    <div id="privacy-panel">
+        <p>当サイトではユーザーエクスペリエンス向上の為、クッキーを使用しています。
+            また、匿名でアクセス状況のデータを収集しています。
+            詳しい情報は当サイトのプライバシーポリシーをご覧ください。
+        </p>
+        <button id="agreebtn">承認する</button>
+    </div>
+
+    <script src="book-js/_common/scripts/js.cookie.js"></script>
+    <script src="5-03_cookie.js"></script>
 </body>
 
 </html>
