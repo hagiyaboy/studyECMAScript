@@ -4,7 +4,7 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width,initial-scale=1">
-    <title>テンプレート</title>
+    <title>6-02_drawer</title>
     <link href="book-js/_common/images/favicon.ico" rel="shortcut icon">
     <link href="https://fonts.googleapis.com/css?family=M+PLUS+1p:400,500" rel="stylesheet">
     <link href="book-js/_common/css/style.css" rel="stylesheet">
@@ -15,8 +15,13 @@
     <div id="wrapper">
         <header>
             <div class="container">
-                <h1>タイトル</h1>
-                <h2>サブタイトル</h2>
+                <div class="title-block">
+                    <h1>ドロワーナビゲーション</h1>
+                    <h2>開閉機能をプログラミング</h2>
+                </div>
+                <div class="hamburger" id="open-nav">
+                    <img src="book-js/6-02_images/hamburger.png" alt="">
+                </div>
             </div><!-- /.container -->
         </header>
         <main>
@@ -33,8 +38,19 @@
         </footer>
     </div><!-- / #wapper -->
     <nav id="nav">
+        <div class="logo" ><img src="book-js/6-02_images/logo.svg" alt=""></div>
+        <ul>
+            <li><a href="#">HOME</a></li>
+            <li><a href="#">今月の特集</a></li>
+            <li><a href="#">ホテル検索</a></li>
+            <li><a href="#">カフェ検索</a></li>
+            <li><a href="#">お問い合わせ</a></li>
+        </ul>
 
     </nav>
+    
+    <script src="book-js/_common/scripts/jquery-3.6.0.min.js"></script>
+    <script src="6-02_drawer.js"></script>
 </body>
 
 </html>
